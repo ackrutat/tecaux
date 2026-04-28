@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: ackrutat/tecaux-website
+  repo: ackrutat/tecaux
   branch: main
 
 media_folder: "images"
