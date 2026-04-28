@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: ackrutat/tecaux-website
+  branch: main
+
+media_folder: "images"
+
+collections:
+  - name: "startseite"
+    label: "Startseite"
+    files:
+      - label: "Startseite"
+        name: "startseite"
+        file: "index.html"
+        fields:
+          - {label: "Headline", name: "title", widget: "string"}
+          - {label: "Untertitel", name: "description", widget: "text"}
