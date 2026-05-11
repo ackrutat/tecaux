@@ -75,7 +75,7 @@ nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.97);backdrop
 
 /* HERO */
 .hero{background:var(--navy);padding:6rem 3.5rem 0;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1600&q=60') center/cover no-repeat;opacity:0.06}
+.hero::before{content:'';position:absolute;inset:0;background:url('gebaeude.jpg') center/cover no-repeat;opacity:0.18}
 .hero::after{content:'';position:absolute;bottom:-1px;left:0;right:0;height:80px;background:var(--white);clip-path:ellipse(60% 100% at 50% 100%)}
 .hero-inner{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:1.15fr 0.85fr;gap:5rem;align-items:center;padding-bottom:5rem;position:relative;z-index:1}
 .hero-eyebrow{display:inline-flex;align-items:center;gap:0.75rem;margin-bottom:1.75rem}
@@ -538,6 +538,14 @@ h1{animation:fadeUp 0.65s ease 0.2s both}
       <div class="eyebrow">Warum ASSETAUX</div>
       <h2 id="warum-h2">Der richtige Partner für Insolvenzverwalter</h2>
       <p style="font-size:1rem;color:var(--text-mid);line-height:1.8;font-weight:300;margin-bottom:2rem">Insolvenzverwalter brauchen einen Verwertungspartner, dem sie bedingungslos vertrauen können. Einen, der schnell reagiert, diskret agiert und maximale Erlöse für die Gläubiger erzielt. Das ist ASSETAUX.</p>
+      <div style="border-radius:20px;overflow:hidden;margin-bottom:2rem;position:relative;aspect-ratio:16/9">
+        <img src="lobby.jpg" alt="ASSETAUX Verwertungspartner – professionelle Insolvenzverwertung deutschlandweit" style="width:100%;height:100%;object-fit:cover;display:block" loading="lazy">
+        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(10,22,40,0.65),transparent)"></div>
+        <div style="position:absolute;bottom:1.5rem;left:1.75rem">
+          <p style="font-family:'Playfair Display',serif;font-size:1.1rem;color:#fff;font-weight:700;margin:0">Diskret. Schnell. Verlässlich.</p>
+          <p style="font-size:0.78rem;color:rgba(255,255,255,0.65);margin:0.25rem 0 0">Ihr Partner für Insolvenzverwertung deutschlandweit</p>
+        </div>
+      </div>
       <a href="ueber-uns.html" class="btn btn-secondary btn-lg">Mehr über uns</a>
     </div>
     <div class="warum-list" aria-label="Unsere Stärken">
@@ -608,34 +616,44 @@ h1{animation:fadeUp 0.65s ease 0.2s both}
 </section>
 
 <!-- SEO TEXT -->
-<section class="seo-section" aria-labelledby="seo-h2" style="padding:5.5rem 3.5rem;border-top:1px solid var(--border)">
+<section aria-labelledby="seo-h2" style="padding:5.5rem 3.5rem;border-top:1px solid var(--border);background:var(--off-white)">
   <div style="max-width:1320px;margin:0 auto">
+    <!-- Hammer Bild Banner -->
+    <div style="border-radius:20px;overflow:hidden;margin-bottom:4rem;position:relative;height:280px">
+      <img src="hammer.jpg" alt="Richterhammer und Gesetzesbücher – Symbol für rechtssichere Insolvenzverwertung" style="width:100%;height:100%;object-fit:cover;object-position:center 40%;display:block" loading="lazy">
+      <div style="position:absolute;inset:0;background:linear-gradient(to right,rgba(10,22,40,0.85) 40%,rgba(10,22,40,0.3))"></div>
+      <div style="position:absolute;top:50%;left:3.5rem;transform:translateY(-50%)">
+        <div style="font-size:0.7rem;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:0.14em;margin-bottom:0.75rem">Ratgeber Insolvenzverwertung</div>
+        <h2 id="seo-h2" style="font-family:'Playfair Display',serif;font-size:2.25rem;font-weight:700;color:#fff;line-height:1.2;margin:0 0 0.75rem">Was Insolvenzverwalter wissen müssen</h2>
+        <p style="color:rgba(255,255,255,0.6);font-size:0.95rem;margin:0;font-weight:300">Rechtssicher verwerten, maximale Erlöse erzielen, Gläubiger befriedigen</p>
+      </div>
+    </div>
     <div style="display:grid;grid-template-columns:2fr 1fr;gap:5rem;align-items:start">
       <div>
         <div class="eyebrow">Ratgeber</div>
         <h2 id="seo-h2">Insolvenzverwertung in Deutschland – was Insolvenzverwalter wissen müssen</h2>
 
-        <h3>Was ist Insolvenzverwertung?</h3>
-        <p>Die Insolvenzverwertung ist ein zentraler Bestandteil jedes Insolvenzverfahrens. Sobald das Insolvenzgericht das Verfahren eröffnet und einen Insolvenzverwalter bestellt hat, besteht eine der Kernaufgaben darin, die Insolvenzmasse – also das gesamte verwertbare Vermögen des insolventen Unternehmens – zu versilbern und die Erlöse an die Gläubiger zu verteilen. Dabei ist höchste Sorgfalt gefragt: Der Insolvenzverwalter trägt gegenüber dem Gericht, den Gläubigern und den Behörden eine erhebliche Verantwortung für eine ordnungsgemäße, rechtssichere und möglichst erlösmaximierende Verwertung.</p>
+        <h3 style="font-family:'Playfair Display',serif;font-size:1.35rem;font-weight:700;color:var(--navy);margin:0 0 1rem">Was ist Insolvenzverwertung?</h3>
+        <p style="font-size:0.95rem;color:var(--text-mid);line-height:1.9;margin-bottom:1.25rem;font-weight:300">Die Insolvenzverwertung ist ein zentraler Bestandteil jedes Insolvenzverfahrens. Sobald das Insolvenzgericht das Verfahren eröffnet und einen Insolvenzverwalter bestellt hat, besteht eine der Kernaufgaben darin, die Insolvenzmasse – also das gesamte verwertbare Vermögen des insolventen Unternehmens – zu versilbern und die Erlöse an die Gläubiger zu verteilen. Dabei ist höchste Sorgfalt gefragt: Der Insolvenzverwalter trägt gegenüber dem Gericht, den Gläubigern und den Behörden eine erhebliche Verantwortung für eine ordnungsgemäße, rechtssichere und möglichst erlösmaximierende Verwertung.</p>
         <p>Die Insolvenzmasse kann dabei sehr unterschiedlich zusammengesetzt sein: In produzierenden Unternehmen dominieren Maschinen und Anlagen, in Handelsunternehmen Warenbestände, in Dienstleistungsunternehmen IT-Equipment und Büroausstattungen. Häufig handelt es sich um gemischte Massen, die verschiedene Assetklassen gleichzeitig umfassen. Genau hier liegt die Stärke von ASSETAUX: Als Full-Service-Dienstleister für Insolvenzverwalter übernehmen wir die komplette Verwertung – unabhängig von der Zusammensetzung der Insolvenzmasse.</p>
 
-        <h3>Die Rolle des Insolvenzverwalters bei der Verwertung</h3>
+        <h3 style="font-family:'Playfair Display',serif;font-size:1.35rem;font-weight:700;color:var(--navy);margin:2.5rem 0 1rem">Die Rolle des Insolvenzverwalters bei der Verwertung</h3>
         <p>Der Insolvenzverwalter ist nach § 159 InsO verpflichtet, die Insolvenzmasse unverzüglich zu verwerten, sofern nicht besondere Umstände eine abweichende Behandlung rechtfertigen. Er trägt dabei die persönliche Verantwortung für eine ordnungsgemäße Durchführung und ist dem Gericht gegenüber rechenschaftspflichtig. Die Auswahl eines kompetenten und verlässlichen Verwertungspartners ist daher eine der wichtigsten Entscheidungen im Insolvenzverfahren.</p>
         <p>ASSETAUX versteht die besondere Verantwortung des Insolvenzverwalters und unterstützt ihn dabei umfassend: mit professioneller Dokumentation, transparenter Abrechnung und lückenloser Nachweisführung für alle Verwertungsschritte. So kann der Insolvenzverwalter seinen Pflichten gegenüber Gericht und Gläubigern jederzeit vollständig nachkommen.</p>
 
-        <h3>Industrieverwertung – Maschinen und Anlagen optimal verwerten</h3>
+        <h3 style="font-family:'Playfair Display',serif;font-size:1.35rem;font-weight:700;color:var(--navy);margin:2.5rem 0 1rem">Industrieverwertung – Maschinen und Anlagen optimal verwerten</h3>
         <p>Die Verwertung von Maschinen und Industrieanlagen erfordert spezifisches Marktwissen und ein breites Käufernetzwerk. Gebrauchtmaschinen haben oft sehr unterschiedliche Marktwerte – je nach Hersteller, Baujahr, Zustand und Marktnachfrage. Eine professionelle Bewertung durch erfahrene Fachleute ist daher unerlässlich, um realistische Erlöserwartungen zu setzen und die optimale Verwertungsstrategie zu wählen.</p>
         <p>ASSETAUX verfügt über umfassende Expertise in der Industrieverwertung und ein belastbares Netzwerk aus Maschinenhändlern, Industrieunternehmen und Einkäufern. Wir bewerten Maschinen und Anlagen fachgerecht, entwickeln eine maßgeschneiderte Vermarktungsstrategie und erzielen durch gezielte Direktvermarktung an vorqualifizierte Käufer die bestmöglichen Erlöse.</p>
 
-        <h3>Büroauflösung und Beräumung – vollständig und besenrein</h3>
+        <h3 style="font-family:'Playfair Display',serif;font-size:1.35rem;font-weight:700;color:var(--navy);margin:2.5rem 0 1rem">Büroauflösung und Beräumung – vollständig und besenrein</h3>
         <p>Neben der eigentlichen Verwertung von Vermögenswerten ist die Beräumung der Betriebsstätte eine häufig unterschätzte Herausforderung im Insolvenzverfahren. Mieter- oder eigentümerseits bestehen oft enge Fristen für die Übergabe der Räumlichkeiten, und die Logistik einer vollständigen Betriebsräumung erfordert erhebliche Koordination. ASSETAUX übernimmt die gesamte Beräumung: von der Demontage schwerer Maschinen über den Abtransport von Möbeln bis zur ordnungsgemäßen Entsorgung nicht verwertbarer Gegenstände.</p>
         <p>Bei Büroauflösungen im Rahmen von Insolvenzverfahren vermarkten wir parallel: Büromöbel, IT-Equipment, Kommunikationstechnik und Büroausstattungen werden an Händler und Direktkäufer veräußert, bevor der Rest fachgerecht entsorgt wird. Das Ergebnis: maximale Erlöse aus der Büroauflösung und eine termingerecht besenrein übergebene Immobilie.</p>
 
-        <h3>Ankauf von Insolvenzmassen – schnelle Liquidität für die Masse</h3>
+        <h3 style="font-family:'Playfair Display',serif;font-size:1.35rem;font-weight:700;color:var(--navy);margin:2.5rem 0 1rem">Ankauf von Insolvenzmassen – schnelle Liquidität für die Masse</h3>
         <p>In manchen Insolvenzfällen ist Schnelligkeit das oberste Gebot: Wenn Mietfristen ablaufen, Arbeitnehmeransprüche bedient werden müssen oder der Zeitdruck aus anderen Gründen hoch ist, kann der Direktankauf der Insolvenzmasse durch ASSETAUX die beste Lösung sein. Wir kaufen Insolvenzmassen aller Art – Maschinen, Warenlager, Fahrzeugflotten, IT-Equipment oder gemischte Bestände – direkt und unkompliziert an.</p>
         <p>Der Direktankauf bietet dem Insolvenzverwalter entscheidende Vorteile: sofortige Liquidität für die Masse, kein Vermarktungsaufwand, keine Unsicherheit über Verwertungserlöse und schnelle Beräumung der Betriebsstätte. ASSETAUX zahlt faire, marktgerechte Ankaufspreise und schließt Kaufverträge rechtssicher und transparent ab.</p>
 
-        <h3>ASSETAUX – Ihr Partner für Insolvenzverwertung in ganz Deutschland</h3>
+        <h3 style="font-family:'Playfair Display',serif;font-size:1.35rem;font-weight:700;color:var(--navy);margin:2.5rem 0 1rem">ASSETAUX – Ihr Partner für Insolvenzverwertung in ganz Deutschland</h3>
         <p>ASSETAUX wurde mit dem klaren Fokus gegründet, Insolvenzverwaltern in Deutschland den besten möglichen Verwertungspartner zur Seite zu stellen. Wir sind kein allgemeines Handelsunternehmen, sondern ein spezialisierter Dienstleister, der die rechtlichen, logistischen und wirtschaftlichen Anforderungen der Insolvenzpraxis genau kennt. Unsere gesamte Infrastruktur, unser Netzwerk und unsere Prozesse sind auf die Bedürfnisse von Insolvenzverwaltern ausgerichtet.</p>
         <p>Ob Hamburg, München, Berlin, Köln, Frankfurt, Düsseldorf, Stuttgart, Nürnberg, Leipzig oder Dortmund – ASSETAUX ist deutschlandweit für Sie im Einsatz. Kontaktieren Sie uns noch heute für eine unverbindliche Erstberatung.</p>
       </div>
